@@ -1,7 +1,22 @@
 {
   "name": "bling-souq",
   "version": "0.0.0",
+	"description": "A simple server",
+	"bugs": {
+		"url": "https://waffle.io/code-paw/bling-souq"
+	},
   "private": true,
+	"main": "./bin/www",
+	"contributors": [
+		{
+			"name": "Baishali Ghosh",
+			"email": "baishali13@gmail.com"
+		},
+		{
+			"name": "Kunal Nagpal",
+			"email": "kunagpal@gmail.com"
+		}
+	],
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -13,5 +28,14 @@
     "express": "~4.13.4",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/code-paw/bling-souq.git"
+	},
+	"license": "Apache 2.0",
+	"engines": {
+		"node": "6.x"
+	},
+	"engine-strict": true
 }
